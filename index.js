@@ -7,6 +7,6 @@ app.get("/", (req, res) => {
     res.send(`Hi, ${COMPANY_NAME ? COMPANY_NAME : "Stranger"}!`);
 });
 
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log("Server is running...");
 });
